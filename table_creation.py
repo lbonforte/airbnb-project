@@ -1,7 +1,7 @@
 import pyodbc
 
 
-class Table_create:
+class TableCreate:
     def __init__(self, table_name, column_info):
         self.server = ''
         self.database = 'Airbnb'

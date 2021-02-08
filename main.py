@@ -1,16 +1,16 @@
 from table_creation import *
 from table_config import *
 
-Locations_table = Table_create('Locations', Locations)
+Locations_table = TableCreate('Locations', Locations)
 
-reviewers_table = Table_create('Reviewers', Reviewers)
+reviewers_table = TableCreate('Reviewers', Reviewers)
 
-hosts_table = Table_create('Hosts', Hosts)
+hosts_table = TableCreate('Hosts', Hosts)
 
-reviews_table = Table_create('Reviews', Reviews)
+reviews_table = TableCreate('Reviews', Reviews)
 
-listings_table = Table_create('Listings', Listings)
+listings_table = TableCreate('Listings', Listings)
 
-amenity_table = Table_create('Amenities', Amenities)
+amenity_table = TableCreate('Amenities', Amenities)
 
-list_amen_junction = Table_create('Listing_Amenities', List_amen_junction)
+list_amen_junction = TableCreate('Listing_Amenities', List_amen_junction)
